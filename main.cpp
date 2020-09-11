@@ -43,6 +43,8 @@ int main()
     mvwprintw(ventana, limiteEnY - 2, 1, "[Help]");
     mvwprintw(ventana, limiteEnY - 2, limiteEnX - 8, "[Quit]");
 
+
+
     int tituloDelTitulo = ((limiteEnX - 3) / 2) - 10;
     WINDOW *tituloBorde = derwin(ventana, 3, limiteEnX - 2, 1, 1);
     box(tituloBorde, ACS_VLINE, ACS_HLINE);
